@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horaire - Ingénieur au féminin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Horaire du Congrès</h1>
+    <p>Planifiez votre expérience avec les événements clés de chaque journée.</p>
+  </header>
+
+  <main class="schedule-container">
+    <input type="radio" name="tab" id="jour1" checked>
+    <input type="radio" name="tab" id="jour2">
+    <div class="download-button">
+      <a href="horaire.pdf" download>Télécharger le programme (PDF)</a>
+    </div>
+
+    <div class="tabs">
+      <label for="jour1">Jour 1 - 15 Nov</label>
+      <label for="jour2">Jour 2 - 16 Nov</label>
+    </div>
+
+    <section class="timeline" id="content-jour1">
+      <div class="event">
+        <div class="time">09h00</div>
+        <div class="details">
+          <h3>Accueil & inscription</h3>
+          <p>Café de bienvenue, remise des badges et ouverture des portes.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">10h00</div>
+        <div class="details">
+          <h3>Discours d’ouverture</h3>
+          <p>Avec les organisatrices et les partenaires du congrès.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">11h00</div>
+        <div class="details">
+          <h3>Conférence : Leadership au féminin</h3>
+          <p>Présentée par <strong>Dr. Amina Bouchareb</strong>.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">12h30</div>
+        <div class="details">
+          <h3>Pause déjeuner & réseautage</h3>
+          <p>Espaces libres pour discussion et visite des kiosques.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">14h00</div>
+        <div class="details">
+          <h3>Ateliers thématiques</h3>
+          <ul>
+            <li>Ingénierie durable</li>
+            <li>Équité en entreprise</li>
+            <li>Innover avec l’IA</li>
+          </ul>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">17h00</div>
+        <div class="details">
+          <h3>Clôture de la journée</h3>
+          <p>Mot de fin et résumé des moments forts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="content-jour2">
+      <div class="event">
+        <div class="time">09h30</div>
+        <div class="details">
+          <h3>Atelier carrière</h3>
+          <p>Développer sa marque personnelle en ingénierie.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">11h00</div>
+        <div class="details">
+          <h3>Panel de discussion</h3>
+          <p>Femmes leaders dans les secteurs industriels et technologiques.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">12h30</div>
+        <div class="details">
+          <h3>Dîner libre</h3>
+          <p>Avec musique d’ambiance et animation de réseautage.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">14h00</div>
+        <div class="details">
+          <h3>Conférence : Innovation et inclusion</h3>
+          <p>Animée par <strong>Ing. Sarah Ouellet</strong>.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="time">15h30</div>
+        <div class="details">
+          <h3>Clôture officielle</h3>
+          <p>Remerciements, témoignages et remise de prix.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ingénieur au féminin - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
