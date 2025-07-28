@@ -1,0 +1,45 @@
+.section-resume-comite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-resume-comite .resume{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #3D5B33;
+    color: #8AB073;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.img{
+    background-color: grey;
+    width: 100%;
+}
+
+.membre{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content: center;
+}
+
+.membre .img{
+    width:60%
+}
+
+.membre .resume{
+    width:60%;
+}
+
+.resume h3{
+    color:#3D5B33;
+}
+
+.resume h4{
+    color:#7D9575;
+}
