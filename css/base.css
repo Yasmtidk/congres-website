@@ -2,7 +2,7 @@ header {
     background-color:#552456 ;
     color: white;
     padding: 10px;
-    font-family: "Inter", sans-serif;  
+    font-family: "Inter", sans-serif;
 }
 
 header a {
@@ -28,23 +28,22 @@ ul{
     padding: 0;
 }
 
+body{
+    padding:0;
+    margin:0;
+    min-height: 100vh;
+    font-family: "Figtree", sans-serif ;
+}
+
 .hero{
-    height: 50%;
-    background-color:#552456 ;
-    padding: 20px;
+    height: 350px ;
+    background-color:#552456;
 }
 
 .hero-text{
     top: 50%;
     left: 50%;
     color: white;
-}
-
-body{
-    padding:0;
-    margin:0;
-    min-height: 100vh;
-    font-family: "Figtree", sans-serif;
 }
 
 h1{
@@ -61,6 +60,10 @@ h3{
 
 h4{
   font-size: 25px;
+}
+
+section{
+  padding: 20px;
 }
 
 footer {

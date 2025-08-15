@@ -5,7 +5,8 @@
     border-radius: 10px;
     font-size: 1.3rem;
     border: solid #80976C;
-    width: fit-content;
+    margin: 0 auto;
+    display: block;
 }
 
 .btn-inscription a{
@@ -16,13 +17,7 @@
 .section-FAQ{
     background-color: #552456;
     color:white;
-    padding:20px;
 }
-
-.section-FAQ , .section-editions-precedentes{
-    padding: 20px;
-}
-
 
 .ligne{
     border-bottom: solid white 2px;  
@@ -43,7 +38,6 @@
 }
 .editions-precedentes .resume{
     display: flex;
-    justify-content: center;
     height: 200px;
     width: 30%;
     background-color: #3D5B33;
