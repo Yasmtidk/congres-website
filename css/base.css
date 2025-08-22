@@ -38,6 +38,8 @@ body{
 .hero{
     height: 350px ;
     background-color:#552456;
+    display: flex;
+    align-items: center;
 }
 
 .hero-text{
