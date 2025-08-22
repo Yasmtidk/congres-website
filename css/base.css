@@ -36,15 +36,36 @@ body{
 }
 
 .hero{
-    height: 350px ;
-    background-color:#552456;
-    display: flex;
-    align-items: center;
+    background-image: url('../img/gifs/about.gif');
+    background-size: cover;
+    background-position: center;
+
+    padding: 60px 5%;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65); /* Adjust opacity (0.4) if needed */
+    z-index: 2;
+}
+
+
+.hero .hero-text {
+    position: relative;
+    z-index: 3;
 }
 
 .hero-text{
     top: 50%;
-    left: 50%;
+    left: 0%;
     color: white;
 }
 

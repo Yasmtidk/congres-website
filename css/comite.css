@@ -11,10 +11,15 @@ body {
     color: #333;
 }
 
-.hero {
-    background-color: var(--primary-purple);
+.hero{
+    background-image: url('../img/gifs/team.webp');
+    background-size: cover;
+    background-position: center;
+
     padding: 60px 5%;
     color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .hero h1 {

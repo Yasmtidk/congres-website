@@ -1,8 +1,14 @@
-.hero {
-    background-color: #4A244A;
+.hero{
+    background-image: url('../img/gifs/help.webp');
+    background-size: cover;
+    background-position: center;
+
     padding: 60px 5%;
     color: white;
+    position: relative;
+    z-index: 1;
 }
+
 
 .hero h1 {
     font-size: 90px;
@@ -25,7 +31,7 @@
 }
 
 .contact-section h2 {
-    color: #000;
+    color: #3D5B33;
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
