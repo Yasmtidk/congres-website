@@ -25,6 +25,34 @@
     color: inherit;
 }
 
+.citation{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+.quotes{
+    position: absolute;
+    font-size: 5rem;
+    top:-5px;
+    left:-80px;
+    color: #552456;
+}
+
+.citation p{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.credit div:nth-child(2){
+    color: #80A06C;
+}
+
 .section-FAQ{
     background-color: #552456;
     color:white;
@@ -60,4 +88,10 @@
 .img{
     background-color: grey;
     width: 30%;
+}
+
+@media (max-width: 900px) {
+    .citation p{
+        font-size: 1.2rem;
+    }
 }
