@@ -9,10 +9,37 @@
     z-index: 1;
 }
 
+.hero-text h1{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.countdown-timer{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  bottom: -100px;
+  padding: 20px;
+  background-color: #663566;
+  border-radius: 8px;
+}
+
+.hero h3{
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 0;
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+}
+
 span{
     color: #80976C;
 }
+
 .section-presentation{
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +52,7 @@ span{
 
 .texte-presentation{
     background-color: #F6F3EE;
-    border-radius: 25px ;
+    border-radius: 20px ;
     width:500px;
     padding:20px;
 }
@@ -43,6 +70,10 @@ span{
 
 .texte-presentation p{
     color:#3D5B33;
+}
+
+.section-conferences-ateliers{
+  background-color:#e8ebe8;
 }
 
 .slideshow-container{
@@ -290,6 +321,7 @@ span{
     h1{
         font-size: 70px !important;
     }
+
     .texte-presentation{
         width:400px;
     }
@@ -326,6 +358,10 @@ span{
 }
 
 @media (max-width: 768px) {
+  .hero h3{
+  font-size: 1rem;
+  }
+
   .section-map h3,
   .section-partenaires h3 {
     font-size: 2em;
