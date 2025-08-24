@@ -54,20 +54,14 @@
 }
 
 .section-FAQ{
-    background-color: #552456;
+    background-color: #80A06C;
     color:white;
 }
 
 .ligne{
-    border-bottom: solid white 2px;  
-}
-
-.texte-FAQ{
-    display: flex;
-    flex-direction: row;
-    gap:2rem;
-    align-items: center;
-    justify-content: space-between;
+    height:1px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .editions-precedentes{
@@ -88,6 +82,30 @@
 .img{
     background-color: grey;
     width: 30%;
+}
+
+.adresse-container{
+    display: flex;
+    gap:1rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.adresse div:nth-child(1){
+    font-weight: bold;
+}
+
+.section-deplacement{
+    background: linear-gradient(180deg,rgba(142, 103, 134, 1) 0%, rgba(110, 116, 106, 1) 50%, rgba(141, 155, 136, 1) 100%);
+    color: white;
+}
+
+.section-deplacement span{
+    font-weight: bold;
+}
+
+.section-deplacement h4{
+    color:#D6E4CD;
 }
 
 @media (max-width: 900px) {
