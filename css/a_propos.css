@@ -117,3 +117,29 @@ img{
         font-size: 1.2rem;
     }
 }
+
+@media (max-width: 600px){
+    .quotes{
+    font-size: 3rem;
+    top:-5px;
+    left:-20px;
+    }
+
+    .editions-precedentes .resume{
+    width:300px;
+    padding: 15px;
+    }
+
+    img{
+        width:200px;
+    }
+
+    .resume p{
+        font-size: 10px;
+    }
+
+    .map iframe {
+    max-width: 100%;
+    overflow: hidden;
+}
+}
