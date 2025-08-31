@@ -13,3 +13,11 @@ CroixNav.addEventListener('click', function(){
 	menu.classList.remove('active');
 })
 
+// changement de langues 
+
+let btnlangue= document.querySelector('.flag');
+let langages= document.querySelector('.languages-container');
+btnlangue.addEventListener('click', function(){
+	langages.classList.toggle('active');
+})
+

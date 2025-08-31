@@ -33,6 +33,47 @@ header ul, footer ul{
     padding: 0;
 }
 
+.flag {
+  width: 30px;
+  cursor :pointer;
+  padding: 10px;
+}
+
+.flag:hover{
+  background-color:#602961 ;
+  border-radius: 3px;
+}
+
+.language-switch{
+  position: relative;
+}
+
+
+.languages-container{
+  position: absolute;
+  background-color: #ffffff;
+  color: rgb(29, 28, 28);
+  z-index: 3;
+  right:-3px;
+  border-radius: 3px;
+  display: none;
+
+}
+
+.languages-container.active{
+  display: block;
+}
+
+.language{
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.language:hover{
+    background-color: #e8e7e7;
+
+}
+
 body{
     padding:0;
     margin:0;
