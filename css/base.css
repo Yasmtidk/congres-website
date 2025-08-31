@@ -22,6 +22,11 @@ header img{
     align-items: center;
 }
 
+  .header-responsive, .menu-responsive{
+    display: none;
+  }
+
+
 header ul, footer ul{
     list-style-type: none;
     margin:0;
@@ -194,6 +199,63 @@ footer span{
   .menu li{
     font-size: 10px;
   }
+  .menu{
+    display: none;
+  }
+  .header-responsive{
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header-responsive i{
+    font-size: 2rem;
+    color:white;
+  }
+
+  .btn-burger{
+    cursor: pointer;
+  }
+
+  .menu-responsive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #552456;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    z-index:1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+    color: #FFFDF3;
+  }
+
+  .menu-responsive.active {
+    transform: translateX(0);
+  }
+
+  .menu-responsive li{
+      padding-bottom: 30px;
+  }
+
+  .closing-cross-nav{
+    position: absolute;
+      padding:10px;
+      color: white;
+      top:0;
+      right:0;
+      font-size: 2rem;
+      cursor: pointer;
+  }
+
 
 
 }

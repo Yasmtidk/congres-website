@@ -1,5 +1,6 @@
-var countDownDate=new Date("Mar 13, 2026 00:00:00").getTime();
+// countdown
 
+var countDownDate=new Date("Mar 13, 2026 00:00:00").getTime();
 
 function updateTimer(){
     var now = new Date().getTime();
