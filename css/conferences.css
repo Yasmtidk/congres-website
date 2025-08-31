@@ -94,10 +94,6 @@
 }
 
 @media (max-width: 900px) {
-    .hero h1 {
-        font-size: 60px; 
-    }
-
     .conference,
     .conference.reverse {
         flex-direction: column; 
@@ -107,6 +103,10 @@
 
     .conference-details {
         text-align: center; 
+    }
+    .conference-image {
+    max-width: 100%;
+    overflow:visible;
     }
 }
 

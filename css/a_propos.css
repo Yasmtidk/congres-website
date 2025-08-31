@@ -116,6 +116,9 @@ img{
     .citation p{
         font-size: 1.2rem;
     }
+    .map iframe{
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px){
