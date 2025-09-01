@@ -15,9 +15,12 @@ CroixNav.addEventListener('click', function(){
 
 // changement de langues 
 
-let btnlangue= document.querySelector('.flag');
-let langages= document.querySelector('.languages-container');
-btnlangue.addEventListener('click', function(){
+let btnlangue = document.querySelectorAll('.language-switch');
+btnlangue.forEach(switcher=>{
+	let btn= switcher.querySelector('.flag');
+	let langages= switcher.querySelector('.languages-container');
+	btn.addEventListener('click', function(){
 	langages.classList.toggle('active');
+})
 })
 
