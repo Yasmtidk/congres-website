@@ -194,6 +194,11 @@ footer span{
   color: black;
 }
 
+.reseaux-icon i:hover{
+  background-color:#80976C;
+  color: #c9d5bf;
+}
+
 .menu-block{
   display: flex;
   flex-direction: column;

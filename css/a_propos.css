@@ -26,6 +26,11 @@
     color: inherit;
 }
 
+.btn-inscription:hover{
+    background: none;
+    border: solid white 2px;
+}
+
 .citation{
     width: fit-content;
     margin: auto;
