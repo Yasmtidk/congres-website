@@ -3,6 +3,9 @@ header {
     color: white;
     padding: 10px;
     font-family: "Inter", sans-serif;
+    position: sticky;
+    top:0;
+    z-index: 1000;
 }
 
 header a {
@@ -235,6 +238,7 @@ footer span{
 }
 
 @media (max-width: 600px){
+
   .hero h1{
   font-size: 40px;
   }
