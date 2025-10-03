@@ -40,43 +40,14 @@ header ul, footer ul{
   width: fit-content;
   cursor :pointer;
   padding: 10px;
-  margin:0 !important;
-  color: #95a983 !important;
+  color: #95a983;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .flag:hover{
   background-color:#602961 ;
   border-radius: 3px;
-}
-
-.language-switch{
-  position: relative;
-}
-
-
-.languages-container{
-  position: absolute;
-  background-color: #ffffff;
-  color: rgb(29, 28, 28);
-  z-index: 3;
-  right:-3px;
-  border-radius: 3px;
-  display: none;
-
-}
-
-.languages-container.active{
-  display: block;
-}
-
-.language{
-  padding: 10px;
-  border-radius: 3px;
-}
-
-.language:hover{
-    background-color: #e8e7e7;
-
 }
 
 body{
