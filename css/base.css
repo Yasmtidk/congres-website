@@ -40,8 +40,8 @@ header ul, footer ul{
   width: fit-content;
   cursor :pointer;
   padding: 10px;
-  margin:0;
-  color: #95a983;
+  margin:0 !important;
+  color: #95a983 !important;
 }
 
 .flag:hover{
