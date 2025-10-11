@@ -378,6 +378,10 @@
 }
 
 @media (max-width: 768px) {
+  
+  .rectangle h4{
+  font-size: 20px;
+  }
   .section-map h3,
   .section-partenaires h3 {
     font-size: 2em;
@@ -413,7 +417,7 @@
 }
 
 .rectangle h4{
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .rectangle p{
