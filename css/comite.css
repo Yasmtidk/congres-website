@@ -83,6 +83,16 @@ body {
     flex-direction: row-reverse;
 }
 
+.lien-linkedin{
+    color:#7D9575;
+
+}
+
+.lien-linkedin:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
     .membre,
     .membre.reverse {
