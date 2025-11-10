@@ -54,13 +54,14 @@
             
             <div class="contact-content-wrapper">
                 <h2>WRITE TO US</h2>
-                <form>
+                <form  action="https://formsubmit.co/acelma@ingenieuraufeminin.ca" method="POST">
                     <div class="form-row">
-                        <input type="email" placeholder="Email" />
-                        <input type="tel" placeholder="Phone" />
+                        <input type="email"  name="email" placeholder="Email" required />
+                        <!-- <input type="tel" placeholder="Phone" /> -->
                     </div>
-                    <input type="text" placeholder="Name" />
-                    <textarea placeholder="Message"></textarea>
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="text"  name="subject" placeholder="Subjet"/>
+                    <textarea  name="msg" placeholder="Message"></textarea>
                     <button type="submit">Send</button>
                 </form>
 
